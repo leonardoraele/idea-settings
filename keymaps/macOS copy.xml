@@ -63,11 +63,9 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="meta g" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="shift meta g" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="Forward">
@@ -117,8 +115,20 @@
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta alt w" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
