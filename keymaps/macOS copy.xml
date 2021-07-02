@@ -8,14 +8,26 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.Move" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="Console.Open">
+    <keyboard-shortcut first-keystroke="shift meta f10" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.Submit" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DumpLookupElementWeights" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -62,6 +74,9 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
@@ -72,6 +87,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -97,8 +113,12 @@
   <action id="ProjectViewEditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="QuickChangeScheme" />
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta alt w" />
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
@@ -133,6 +153,7 @@
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Uml.ShowDiff" />
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.MoveWatchDown" />
