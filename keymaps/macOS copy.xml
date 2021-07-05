@@ -9,11 +9,8 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="ChangesView.Move" />
-  <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift meta w" />
-  </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="meta alt w" />
+    <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
@@ -57,9 +54,7 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorUnSelectWord" />
-  <action id="ExternalSystem.OpenConfig">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="ExternalSystem.OpenConfig" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext">
@@ -95,9 +90,7 @@
   <action id="MoveLineUp" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
-  <action id="NavBar-navigate">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="NavBar-navigate" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
@@ -122,7 +115,7 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta alt w" />
+    <keyboard-shortcut first-keystroke="meta alt w" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta g" />
@@ -140,16 +133,13 @@
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="SelectAllOccurrences">
-    <keyboard-shortcut first-keystroke="ctrl meta g" />
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="SendEOF" />
-  <action id="ShowNavBar">
-    <keyboard-shortcut first-keystroke="alt home" />
-  </action>
+  <action id="ShowNavBar" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
   <action id="SmartUnSelect" />
