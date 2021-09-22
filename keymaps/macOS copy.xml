@@ -160,6 +160,9 @@
   <action id="Uml.ShowDiff" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.MoveWatchDown" />
