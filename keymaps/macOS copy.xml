@@ -12,6 +12,7 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="ChangesView.Move" />
+  <action id="ChangesView.ShelveSilently" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -91,6 +92,8 @@
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveLineDown" />
@@ -161,7 +164,10 @@
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ShowHistoryForBlock">
-    <keyboard-shortcut first-keystroke="meta h" />
+    <keyboard-shortcut first-keystroke="meta alt h" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
