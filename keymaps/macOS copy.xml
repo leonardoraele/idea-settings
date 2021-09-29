@@ -164,9 +164,6 @@
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ShowHistoryForBlock">
-    <keyboard-shortcut first-keystroke="meta alt h" />
-  </action>
-  <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="ViewSource" />
